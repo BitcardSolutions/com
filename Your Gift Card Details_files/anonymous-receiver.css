@@ -1,0 +1,1292 @@
+/* ----------------------- */
+/* -- HTML Reset Styles -- */
+/* ----------------------- */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+input:focus, textarea:focus, select:focus, button:focus {
+  outline: none; }
+
+input[type=text] {
+  -moz-appearance: none;
+  -webkit-appearance: none; }
+
+@font-face {
+  font-family: 'AvenirNextLTPro';
+  src: url("../fonts/AvenirNextLTPro/AvenirNextLTPro-Thin.eot");
+  src: url("../fonts/AvenirNextLTPro/AvenirNextLTPro-Thin.eot?#iefix") format("embedded-opentype"), url("../fonts/AvenirNextLTPro/AvenirNextLTPro-Thin.woff2") format("woff2"), url("../fonts/AvenirNextLTPro/AvenirNextLTPro-Thin.woff") format("woff"), url("../fonts/AvenirNextLTPro/AvenirNextLTPro-Thin.ttf") format("truetype"), url("../fonts/AvenirNextLTPro/AvenirNextLTPro-Thin.svg#AvenirNextLTPro-Thin") format("svg");
+  font-weight: 100;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'AvenirNextLTPro';
+  src: url("../fonts/AvenirNextLTPro/AvenirNextLTPro-Demi.eot");
+  src: url("../fonts/AvenirNextLTPro/AvenirNextLTPro-Demi.eot?#iefix") format("embedded-opentype"), url("../fonts/AvenirNextLTPro/AvenirNextLTPro-Demi.woff2") format("woff2"), url("../fonts/AvenirNextLTPro/AvenirNextLTPro-Demi.woff") format("woff"), url("../fonts/AvenirNextLTPro/AvenirNextLTPro-Demi.ttf") format("truetype"), url("../fonts/AvenirNextLTPro/AvenirNextLTPro-Demi.svg#AvenirNextLTPro-Demi") format("svg");
+  font-weight: 600;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'AvenirNextLTPro';
+  src: url("../fonts/AvenirNextLTPro/AvenirNextLTPro-It.eot");
+  src: url("../fonts/AvenirNextLTPro/AvenirNextLTPro-It.eot?#iefix") format("embedded-opentype"), url("../fonts/AvenirNextLTPro/AvenirNextLTPro-It.woff2") format("woff2"), url("../fonts/AvenirNextLTPro/AvenirNextLTPro-It.woff") format("woff"), url("../fonts/AvenirNextLTPro/AvenirNextLTPro-It.ttf") format("truetype"), url("../fonts/AvenirNextLTPro/AvenirNextLTPro-It.svg#AvenirNextLTPro-It") format("svg");
+  font-weight: normal;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'AvenirNextLTPro';
+  src: url("../fonts/AvenirNextLTPro/AvenirNextLTPro-Regular.eot");
+  src: url("../fonts/AvenirNextLTPro/AvenirNextLTPro-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/AvenirNextLTPro/AvenirNextLTPro-Regular.woff2") format("woff2"), url("../fonts/AvenirNextLTPro/AvenirNextLTPro-Regular.woff") format("woff"), url("../fonts/AvenirNextLTPro/AvenirNextLTPro-Regular.ttf") format("truetype"), url("../fonts/AvenirNextLTPro/AvenirNextLTPro-Regular.svg#AvenirNextLTPro-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url("../fonts/SFPro/SFProDisplay-Light.eot");
+  src: url("../fonts/SFPro/SFProDisplay-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/SFPro/SFProDisplay-Light.woff2") format("woff2"), url("../fonts/SFPro/SFProDisplay-Light.woff") format("woff"), url("../fonts/SFPro/SFProDisplay-Light.ttf") format("truetype"), url("../fonts/SFPro/SFProDisplay-Light.svg#SFProDisplay-Light") format("svg");
+  font-weight: 200;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url("../fonts/SFPro/SFProDisplay-MediumItalic.eot");
+  src: url("../fonts/SFPro/SFProDisplay-MediumItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/SFPro/SFProDisplay-MediumItalic.woff2") format("woff2"), url("../fonts/SFPro/SFProDisplay-MediumItalic.woff") format("woff"), url("../fonts/SFPro/SFProDisplay-MediumItalic.ttf") format("truetype"), url("../fonts/SFPro/SFProDisplay-MediumItalic.svg#SFProDisplay-MediumItalic") format("svg");
+  font-weight: 500;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url("../fonts/SFPro/SFProDisplay-Regular.eot");
+  src: url("../fonts/SFPro/SFProDisplay-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/SFPro/SFProDisplay-Regular.woff2") format("woff2"), url("../fonts/SFPro/SFProDisplay-Regular.woff") format("woff"), url("../fonts/SFPro/SFProDisplay-Regular.ttf") format("truetype"), url("../fonts/SFPro/SFProDisplay-Regular.svg#SFProDisplay-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url("../fonts/SFPro/SFProDisplay-Black.eot");
+  src: url("../fonts/SFPro/SFProDisplay-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/SFPro/SFProDisplay-Black.woff2") format("woff2"), url("../fonts/SFPro/SFProDisplay-Black.woff") format("woff"), url("../fonts/SFPro/SFProDisplay-Black.ttf") format("truetype"), url("../fonts/SFPro/SFProDisplay-Black.svg#SFProDisplay-Black") format("svg");
+  font-weight: 900;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url("../fonts/SFPro/SFProDisplay-Semibold.eot");
+  src: url("../fonts/SFPro/SFProDisplay-Semibold.eot?#iefix") format("embedded-opentype"), url("../fonts/SFPro/SFProDisplay-Semibold.woff2") format("woff2"), url("../fonts/SFPro/SFProDisplay-Semibold.woff") format("woff"), url("../fonts/SFPro/SFProDisplay-Semibold.ttf") format("truetype"), url("../fonts/SFPro/SFProDisplay-Semibold.svg#SFProDisplay-Semibold") format("svg");
+  font-weight: 600;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url("../fonts/SFPro/SFProDisplay-UltralightItalic.eot");
+  src: url("../fonts/SFPro/SFProDisplay-UltralightItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/SFPro/SFProDisplay-UltralightItalic.woff2") format("woff2"), url("../fonts/SFPro/SFProDisplay-UltralightItalic.woff") format("woff"), url("../fonts/SFPro/SFProDisplay-UltralightItalic.ttf") format("truetype"), url("../fonts/SFPro/SFProDisplay-UltralightItalic.svg#SFProDisplay-UltralightItalic") format("svg");
+  font-weight: 200;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url("../fonts/SFPro/SFProDisplay-Ultralight.eot");
+  src: url("../fonts/SFPro/SFProDisplay-Ultralight.eot?#iefix") format("embedded-opentype"), url("../fonts/SFPro/SFProDisplay-Ultralight.woff2") format("woff2"), url("../fonts/SFPro/SFProDisplay-Ultralight.woff") format("woff"), url("../fonts/SFPro/SFProDisplay-Ultralight.ttf") format("truetype"), url("../fonts/SFPro/SFProDisplay-Ultralight.svg#SFProDisplay-Ultralight") format("svg");
+  font-weight: 200;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url("../fonts/SFPro/SFProDisplay-BlackItalic.eot");
+  src: url("../fonts/SFPro/SFProDisplay-BlackItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/SFPro/SFProDisplay-BlackItalic.woff2") format("woff2"), url("../fonts/SFPro/SFProDisplay-BlackItalic.woff") format("woff"), url("../fonts/SFPro/SFProDisplay-BlackItalic.ttf") format("truetype"), url("../fonts/SFPro/SFProDisplay-BlackItalic.svg#SFProDisplay-BlackItalic") format("svg");
+  font-weight: 900;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url("../fonts/SFPro/SFProDisplay-RegularItalic.eot");
+  src: url("../fonts/SFPro/SFProDisplay-RegularItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/SFPro/SFProDisplay-RegularItalic.woff2") format("woff2"), url("../fonts/SFPro/SFProDisplay-RegularItalic.woff") format("woff"), url("../fonts/SFPro/SFProDisplay-RegularItalic.ttf") format("truetype"), url("../fonts/SFPro/SFProDisplay-RegularItalic.svg#SFProDisplay-RegularItalic") format("svg");
+  font-weight: normal;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url("../fonts/SFPro/SFProDisplay-ThinItalic.eot");
+  src: url("../fonts/SFPro/SFProDisplay-ThinItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/SFPro/SFProDisplay-ThinItalic.woff2") format("woff2"), url("../fonts/SFPro/SFProDisplay-ThinItalic.woff") format("woff"), url("../fonts/SFPro/SFProDisplay-ThinItalic.ttf") format("truetype"), url("../fonts/SFPro/SFProDisplay-ThinItalic.svg#SFProDisplay-ThinItalic") format("svg");
+  font-weight: 100;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url("../fonts/SFPro/SFProDisplay-LightItalic.eot");
+  src: url("../fonts/SFPro/SFProDisplay-LightItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/SFPro/SFProDisplay-LightItalic.woff2") format("woff2"), url("../fonts/SFPro/SFProDisplay-LightItalic.woff") format("woff"), url("../fonts/SFPro/SFProDisplay-LightItalic.ttf") format("truetype"), url("../fonts/SFPro/SFProDisplay-LightItalic.svg#SFProDisplay-LightItalic") format("svg");
+  font-weight: 200;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url("../fonts/SFPro/SFProDisplay-Thin.eot");
+  src: url("../fonts/SFPro/SFProDisplay-Thin.eot?#iefix") format("embedded-opentype"), url("../fonts/SFPro/SFProDisplay-Thin.woff2") format("woff2"), url("../fonts/SFPro/SFProDisplay-Thin.woff") format("woff"), url("../fonts/SFPro/SFProDisplay-Thin.ttf") format("truetype"), url("../fonts/SFPro/SFProDisplay-Thin.svg#SFProDisplay-Thin") format("svg");
+  font-weight: 100;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url("../fonts/SFPro/SFProDisplay-SemiboldItalic.eot");
+  src: url("../fonts/SFPro/SFProDisplay-SemiboldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/SFPro/SFProDisplay-SemiboldItalic.woff2") format("woff2"), url("../fonts/SFPro/SFProDisplay-SemiboldItalic.woff") format("woff"), url("../fonts/SFPro/SFProDisplay-SemiboldItalic.ttf") format("truetype"), url("../fonts/SFPro/SFProDisplay-SemiboldItalic.svg#SFProDisplay-SemiboldItalic") format("svg");
+  font-weight: 600;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url("../fonts/SFPro/SFProDisplay-BoldItalic.eot");
+  src: url("../fonts/SFPro/SFProDisplay-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/SFPro/SFProDisplay-BoldItalic.woff2") format("woff2"), url("../fonts/SFPro/SFProDisplay-BoldItalic.woff") format("woff"), url("../fonts/SFPro/SFProDisplay-BoldItalic.ttf") format("truetype"), url("../fonts/SFPro/SFProDisplay-BoldItalic.svg#SFProDisplay-BoldItalic") format("svg");
+  font-weight: bold;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url("../fonts/SFPro/SFProDisplay-Bold.eot");
+  src: url("../fonts/SFPro/SFProDisplay-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/SFPro/SFProDisplay-Bold.woff2") format("woff2"), url("../fonts/SFPro/SFProDisplay-Bold.woff") format("woff"), url("../fonts/SFPro/SFProDisplay-Bold.ttf") format("truetype"), url("../fonts/SFPro/SFProDisplay-Bold.svg#SFProDisplay-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url("../fonts/SFPro/SFProDisplay-HeavyItalic.eot");
+  src: url("../fonts/SFPro/SFProDisplay-HeavyItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/SFPro/SFProDisplay-HeavyItalic.woff2") format("woff2"), url("../fonts/SFPro/SFProDisplay-HeavyItalic.woff") format("woff"), url("../fonts/SFPro/SFProDisplay-HeavyItalic.ttf") format("truetype"), url("../fonts/SFPro/SFProDisplay-HeavyItalic.svg#SFProDisplay-HeavyItalic") format("svg");
+  font-weight: 900;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url("../fonts/SFPro/SFProDisplay-Medium.eot");
+  src: url("../fonts/SFPro/SFProDisplay-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/SFPro/SFProDisplay-Medium.woff2") format("woff2"), url("../fonts/SFPro/SFProDisplay-Medium.woff") format("woff"), url("../fonts/SFPro/SFProDisplay-Medium.ttf") format("truetype"), url("../fonts/SFPro/SFProDisplay-Medium.svg#SFProDisplay-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url("../fonts/SFPro/SFProDisplay-Heavy.eot");
+  src: url("../fonts/SFPro/SFProDisplay-Heavy.eot?#iefix") format("embedded-opentype"), url("../fonts/SFPro/SFProDisplay-Heavy.woff2") format("woff2"), url("../fonts/SFPro/SFProDisplay-Heavy.woff") format("woff"), url("../fonts/SFPro/SFProDisplay-Heavy.ttf") format("truetype"), url("../fonts/SFPro/SFProDisplay-Heavy.svg#SFProDisplay-Heavy") format("svg");
+  font-weight: 900;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'SF Pro Text';
+  src: url("../fonts/SFPro/SFProText-Semibold.eot");
+  src: url("../fonts/SFPro/SFProText-Semibold.eot?#iefix") format("embedded-opentype"), url("../fonts/SFPro/SFProText-Semibold.woff2") format("woff2"), url("../fonts/SFPro/SFProText-Semibold.woff") format("woff"), url("../fonts/SFPro/SFProText-Semibold.ttf") format("truetype"), url("../fonts/SFPro/SFProText-Semibold.svg#SFProText-Semibold") format("svg");
+  font-weight: 600;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'SF Pro Text';
+  src: url("../fonts/SFPro/SFProText-Regular.eot");
+  src: url("../fonts/SFPro/SFProText-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/SFPro/SFProText-Regular.woff2") format("woff2"), url("../fonts/SFPro/SFProText-Regular.woff") format("woff"), url("../fonts/SFPro/SFProText-Regular.ttf") format("truetype"), url("../fonts/SFPro/SFProText-Regular.svg#SFProText-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'SF Pro Text';
+  src: url("../fonts/SFPro/SFProText-MediumItalic.eot");
+  src: url("../fonts/SFPro/SFProText-MediumItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/SFPro/SFProText-MediumItalic.woff2") format("woff2"), url("../fonts/SFPro/SFProText-MediumItalic.woff") format("woff"), url("../fonts/SFPro/SFProText-MediumItalic.ttf") format("truetype"), url("../fonts/SFPro/SFProText-MediumItalic.svg#SFProText-MediumItalic") format("svg");
+  font-weight: 500;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'SF Pro Text';
+  src: url("../fonts/SFPro/SFProText-Heavy.eot");
+  src: url("../fonts/SFPro/SFProText-Heavy.eot?#iefix") format("embedded-opentype"), url("../fonts/SFPro/SFProText-Heavy.woff2") format("woff2"), url("../fonts/SFPro/SFProText-Heavy.woff") format("woff"), url("../fonts/SFPro/SFProText-Heavy.ttf") format("truetype"), url("../fonts/SFPro/SFProText-Heavy.svg#SFProText-Heavy") format("svg");
+  font-weight: 900;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'SF Pro Text';
+  src: url("../fonts/SFPro/SFProText-RegularItalic.eot");
+  src: url("../fonts/SFPro/SFProText-RegularItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/SFPro/SFProText-RegularItalic.woff2") format("woff2"), url("../fonts/SFPro/SFProText-RegularItalic.woff") format("woff"), url("../fonts/SFPro/SFProText-RegularItalic.ttf") format("truetype"), url("../fonts/SFPro/SFProText-RegularItalic.svg#SFProText-RegularItalic") format("svg");
+  font-weight: normal;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'SF Pro Text';
+  src: url("../fonts/SFPro/SFProText-LightItalic.eot");
+  src: url("../fonts/SFPro/SFProText-LightItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/SFPro/SFProText-LightItalic.woff2") format("woff2"), url("../fonts/SFPro/SFProText-LightItalic.woff") format("woff"), url("../fonts/SFPro/SFProText-LightItalic.ttf") format("truetype"), url("../fonts/SFPro/SFProText-LightItalic.svg#SFProText-LightItalic") format("svg");
+  font-weight: 200;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'SF Pro Text';
+  src: url("../fonts/SFPro/SFProText-Light.eot");
+  src: url("../fonts/SFPro/SFProText-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/SFPro/SFProText-Light.woff2") format("woff2"), url("../fonts/SFPro/SFProText-Light.woff") format("woff"), url("../fonts/SFPro/SFProText-Light.ttf") format("truetype"), url("../fonts/SFPro/SFProText-Light.svg#SFProText-Light") format("svg");
+  font-weight: 200;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'SF Pro Text';
+  src: url("../fonts/SFPro/SFProText-Bold.eot");
+  src: url("../fonts/SFPro/SFProText-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/SFPro/SFProText-Bold.woff2") format("woff2"), url("../fonts/SFPro/SFProText-Bold.woff") format("woff"), url("../fonts/SFPro/SFProText-Bold.ttf") format("truetype"), url("../fonts/SFPro/SFProText-Bold.svg#SFProText-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'SF Pro Text';
+  src: url("../fonts/SFPro/SFProText-HeavyItalic.eot");
+  src: url("../fonts/SFPro/SFProText-HeavyItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/SFPro/SFProText-HeavyItalic.woff2") format("woff2"), url("../fonts/SFPro/SFProText-HeavyItalic.woff") format("woff"), url("../fonts/SFPro/SFProText-HeavyItalic.ttf") format("truetype"), url("../fonts/SFPro/SFProText-HeavyItalic.svg#SFProText-HeavyItalic") format("svg");
+  font-weight: 900;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'SF Pro Text';
+  src: url("../fonts/SFPro/SFProText-SemiboldItalic.eot");
+  src: url("../fonts/SFPro/SFProText-SemiboldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/SFPro/SFProText-SemiboldItalic.woff2") format("woff2"), url("../fonts/SFPro/SFProText-SemiboldItalic.woff") format("woff"), url("../fonts/SFPro/SFProText-SemiboldItalic.ttf") format("truetype"), url("../fonts/SFPro/SFProText-SemiboldItalic.svg#SFProText-SemiboldItalic") format("svg");
+  font-weight: 600;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'SF Pro Text';
+  src: url("../fonts/SFPro/SFProText-BoldItalic.eot");
+  src: url("../fonts/SFPro/SFProText-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/SFPro/SFProText-BoldItalic.woff2") format("woff2"), url("../fonts/SFPro/SFProText-BoldItalic.woff") format("woff"), url("../fonts/SFPro/SFProText-BoldItalic.ttf") format("truetype"), url("../fonts/SFPro/SFProText-BoldItalic.svg#SFProText-BoldItalic") format("svg");
+  font-weight: bold;
+  font-style: italic; }
+
+*,
+*:before,
+*:after,
+input[type="checkbox"],
+input[type="radio"],
+input[type="search"] {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box; }
+
+body {
+  font-family: AvenirNextLTPro, serif, sans-serif;
+  color: #33404f; }
+
+h1 {
+  font-size: 20px;
+  line-height: 27px;
+  font-weight: 700; }
+
+h4 {
+  font-size: 17px;
+  line-height: 41px;
+  font-weight: 600; }
+
+h6 {
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: 600; }
+
+a {
+  text-decoration: none;
+  color: #3398db;
+  font-size: 15px; }
+
+p {
+  font-size: 15px;
+  line-height: 22px; }
+
+.button-default-color {
+  width: 100%;
+  background-color: #3398db; }
+
+.button-red-color {
+  width: 100%;
+  background-color: #dd4b4c; }
+
+.btn {
+  display: inline-block;
+  margin-bottom: 0;
+  line-height: 52px;
+  height: 48px;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border-radius: 4px;
+  border: 0;
+  color: #ffffff;
+  font-size: 17px; }
+
+.my-action.btn {
+  max-width: 255px; }
+
+[ng\:cloak], [ng-cloak], .ng-cloak {
+  display: none !important; }
+
+.show-cursor-pointer:hover {
+  cursor: pointer; }
+
+.clearfix {
+  *zoom: 1; }
+  .clearfix:before, .clearfix:after {
+    display: table;
+    content: " ";
+    clear: both; }
+
+body.isApple {
+  font-family: 'SF Pro Display', serif, sans-serif;
+  color: #000000; }
+  body.isApple h1 {
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 600; }
+  body.isApple h4 {
+    font-size: 17px;
+    line-height: 41px;
+    font-weight: 600; }
+  body.isApple h6 {
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: 600; }
+  body.isApple a {
+    font-family: 'SF Pro Text', serif, sans-serif;
+    text-decoration: none;
+    color: #3398db; }
+  body.isApple p {
+    font-family: 'SF Pro Text', serif, sans-serif; }
+  body.isApple .my-action.btn {
+    background-color: #272727 !important;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 100px; }
+  body.isApple .btn {
+    color: #ffffff;
+    background-color: #272727 !important;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 100px; }
+  body.isApple .my-footer {
+    background-color: #ffffff !important;
+    box-shadow: none !important; }
+  body.isApple .addToAppleWallet {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0; }
+  body.isApple .my-gift-card-summary .my-name, body.isApple .my-gift-card-summary .my-title, body.isApple .my-gift-card-summary .my-amount {
+    font-size: 20px;
+    font-weight: 500; }
+
+/* ------------------------------ */
+/* -- Redemption Sizing Styles -- */
+/* ------------------------------ */
+.my-error {
+  max-width: 1200px;
+  padding: 20px;
+  margin: 0 auto;
+  text-align: center; }
+  .my-error h4 {
+    padding-bottom: 20px; }
+  .my-error p {
+    text-align: center; }
+
+.my-outter-top {
+  max-width: 1200px;
+  padding: 20px 20px 0 20px; }
+  .my-outter-top .my-goto-homepage {
+    padding-right: 30px; }
+
+.my-main {
+  max-width: 1200px;
+  padding: 20px; }
+  .my-main .my-left-panel {
+    width: 100%;
+    padding-bottom: 20px; }
+    .my-main .my-left-panel .my-gift-card-summary .my-merchant-logo {
+      padding-right: 20px; }
+      .my-main .my-left-panel .my-gift-card-summary .my-merchant-logo .my-image {
+        width: 75px; }
+    .my-main .my-left-panel .my-gift-card-summary .my-gift-card-details .my-amount {
+      padding-bottom: 10px; }
+    .my-main .my-left-panel .my-gift-card-image .my-image {
+      max-width: 260px; }
+    .my-main .my-left-panel .my-gyft-balance-content .my-description {
+      max-width: 260px;
+      padding-bottom: 10px; }
+    .my-main .my-left-panel .my-gyft-balance-content .my-banner .my-image {
+      max-width: 260px; }
+    .my-main .my-left-panel .my-gift-card-prereveal .my-reveal-error {
+      padding-top: 10px;
+      max-width: 330px; }
+    .my-main .my-left-panel .my-gift-card-reveal .my-fields-group {
+      min-width: 240px; }
+      .my-main .my-left-panel .my-gift-card-reveal .my-fields-group .my-barcode {
+        padding-bottom: 15px; }
+    .my-main .my-left-panel .my-gift-card-add-wallet {
+      padding-right: 0; }
+    .my-main .my-left-panel .addToAppleWallet {
+      text-align: center;
+      padding-top: 20px; }
+  @media (min-width: 480px) {
+    .my-main .my-left-panel {
+      padding-bottom: 40px; }
+      .my-main .my-left-panel .my-gyft-balance-content .my-description {
+        padding-bottom: 20px; }
+      .my-main .my-left-panel .my-gift-card-reveal .my-fields-group {
+        min-width: 280px; }
+        .my-main .my-left-panel .my-gift-card-reveal .my-fields-group .my-field .my-value {
+          padding-right: 10px; }
+        .my-main .my-left-panel .my-gift-card-reveal .my-fields-group .my-field .my-copy {
+          min-width: 45px; }
+      .my-main .my-left-panel .my-gift-card-add-wallet {
+        padding-right: 40px; } }
+  @media (min-width: 1024px) {
+    .my-main .my-left-panel {
+      width: 34%;
+      padding-right: 1.8%; }
+      .my-main .my-left-panel .my-gift-card-image .my-image {
+        max-width: none;
+        width: 100%;
+        padding-right: 10px; }
+      .my-main .my-left-panel .my-gyft-balance-content .my-description {
+        max-width: none;
+        width: 100%;
+        padding-right: 10px;
+        padding-bottom: 30px; }
+      .my-main .my-left-panel .my-gyft-balance-content .my-banner .my-image {
+        max-width: none;
+        width: 100%;
+        padding-right: 10px; } }
+  .my-main .my-right-panel {
+    width: 100%; }
+    .my-main .my-right-panel .my-container .my-top {
+      height: 107px; }
+      .my-main .my-right-panel .my-container .my-top .my-goto-homepage {
+        padding-top: 20px;
+        padding-right: 30px; }
+      .my-main .my-right-panel .my-container .my-top .my-help {
+        padding-top: 20px; }
+    .my-main .my-right-panel .my-container .my-content .my-title {
+      padding-bottom: 20px; }
+    .my-main .my-right-panel .my-container .my-content .my-action {
+      padding-top: 20px; }
+    .my-main .my-right-panel .my-container .my-content .my-gift-message {
+      padding-bottom: 30px; }
+      .my-main .my-right-panel .my-container .my-content .my-gift-message .my-box {
+        padding: 25px 20px 20px 20px; }
+        .my-main .my-right-panel .my-container .my-content .my-gift-message .my-box .my-label {
+          padding-bottom: 5px; }
+        .my-main .my-right-panel .my-container .my-content .my-gift-message .my-box .my-message {
+          padding-top: 20px; }
+          .my-main .my-right-panel .my-container .my-content .my-gift-message .my-box .my-message .my-video {
+            width: 100%;
+            padding-bottom: 20px; }
+            .my-main .my-right-panel .my-container .my-content .my-gift-message .my-box .my-message .my-video video {
+              width: 100%; }
+          .my-main .my-right-panel .my-container .my-content .my-gift-message .my-box .my-message .my-text {
+            width: 100%; }
+        .my-main .my-right-panel .my-container .my-content .my-gift-message .my-box .my-toggle-image {
+          width: 18px; }
+        .my-main .my-right-panel .my-container .my-content .my-gift-message .my-box .my-ribbon {
+          width: 33px; }
+    .my-main .my-right-panel .my-container .my-content .my-redeem-in-store.my-two-column {
+      padding-bottom: 30px; }
+    .my-main .my-right-panel .my-container .my-content .my-redeem-in-store,
+    .my-main .my-right-panel .my-container .my-content .my-redeem-online {
+      width: 100%; }
+    .my-main .my-right-panel .my-container .my-content .my-redeem-in-store-and-online .my-title,
+    .my-main .my-right-panel .my-container .my-content .my-redeem-in-store-and-online .my-instructions {
+      max-width: 460px; }
+    .my-main .my-right-panel .my-container .my-content .my-redeem-in-store-and-online .my-action .btn {
+      width: 47.75%; }
+    .my-main .my-right-panel .my-container .my-content .my-gyft-smart-widget {
+      width: 100%;
+      padding-top: 30px; }
+    .my-main .my-right-panel .my-container .my-content .my-gyft-smart-widget.my-gyft-balance-card {
+      padding-top: 0; }
+    .my-main .my-right-panel .my-container .my-content .my-add-to-samsung-pay {
+      width: 100%;
+      padding-top: 30px; }
+  @media (min-width: 480px) {
+    .my-main .my-right-panel .my-container .my-content .my-redeem-in-store.my-two-column {
+      padding-bottom: 0; }
+    .my-main .my-right-panel .my-container .my-content .my-redeem-in-store.my-two-column,
+    .my-main .my-right-panel .my-container .my-content .my-redeem-online.my-two-column {
+      width: 50%; }
+    .my-main .my-right-panel .my-container .my-content .my-redeem-in-store.my-first {
+      padding-right: 15px; }
+    .my-main .my-right-panel .my-container .my-content .my-redeem-online.my-last {
+      padding-left: 15px; }
+    .my-main .my-right-panel .my-container .my-content .my-actions-container {
+      padding-bottom: 10px; }
+      .my-main .my-right-panel .my-container .my-content .my-actions-container .my-action {
+        width: 50%; }
+      .my-main .my-right-panel .my-container .my-content .my-actions-container .my-action.my-first {
+        padding-right: 15px; }
+      .my-main .my-right-panel .my-container .my-content .my-actions-container .my-action.my-last {
+        padding-left: 15px; } }
+  @media (min-width: 600px) {
+    .my-main .my-right-panel .my-container .my-content .my-gift-message .my-box .my-message .my-video {
+      width: 50%;
+      padding-bottom: 0;
+      padding-right: 20px; }
+    .my-main .my-right-panel .my-container .my-content .my-gift-message .my-box .my-message .my-text {
+      width: 50%; } }
+  @media (min-width: 520px) {
+    .my-main .my-right-panel .my-container .my-content .my-redeem-in-store .my-action,
+    .my-main .my-right-panel .my-container .my-content .my-redeem-online .my-action {
+      max-width: 320px; }
+    .my-main .my-right-panel .my-container .my-content .my-redeem-in-store.my-two-column .my-action,
+    .my-main .my-right-panel .my-container .my-content .my-redeem-online.my-two-column .my-action {
+      max-width: none; } }
+  @media (min-width: 1024px) {
+    .my-main .my-right-panel {
+      width: 66%;
+      padding-bottom: 40px; }
+      .my-main .my-right-panel .my-container .my-content {
+        min-height: 254px;
+        padding-left: 4%; }
+        .my-main .my-right-panel .my-container .my-content .my-gift-message .my-box {
+          padding: 30px 30px 30px 30px; }
+        .my-main .my-right-panel .my-container .my-content .my-gyft-smart-widget .my-or .my-text {
+          padding: 0 5px; }
+        .my-main .my-right-panel .my-container .my-content .my-gyft-smart-widget .my-register-login {
+          padding-top: 20px; }
+        .my-main .my-right-panel .my-container .my-content .my-gyft-smart-widget.my-gyft-balance-card .my-register-login {
+          padding-top: 0; }
+        .my-main .my-right-panel .my-container .my-content .my-add-to-samsung-pay {
+          padding-left: 10px; } }
+
+.my-bottom-panel .my-content {
+  max-width: 1200px;
+  padding: 50px 20px; }
+  .my-bottom-panel .my-content .my-title {
+    padding-bottom: 10px; }
+  .my-bottom-panel .my-content .my-subtitle {
+    padding-bottom: 30px; }
+  .my-bottom-panel .my-content .my-banner {
+    padding-bottom: 30px; }
+    .my-bottom-panel .my-content .my-banner .my-image {
+      max-width: 100%; }
+  .my-bottom-panel .my-content .my-action {
+    padding-bottom: 50px; }
+    .my-bottom-panel .my-content .my-action .btn {
+      max-width: 330px; }
+  .my-bottom-panel .my-content .my-steps {
+    max-width: 440px; }
+    .my-bottom-panel .my-content .my-steps .my-step {
+      padding: 10px 20px; }
+    .my-bottom-panel .my-content .my-steps .my-step.my-last {
+      padding: 10px 20px 0 20px; }
+    .my-bottom-panel .my-content .my-steps .my-icon {
+      padding-bottom: 20px; }
+      .my-bottom-panel .my-content .my-steps .my-icon .my-image {
+        height: 50px; }
+
+@media (min-width: 740px) {
+  .my-bottom-panel .my-content .my-steps {
+    padding: 0 9.6%;
+    max-width: none; }
+    .my-bottom-panel .my-content .my-steps .my-step {
+      padding: 0 20px; }
+    .my-bottom-panel .my-content .my-steps .my-step.my-last {
+      padding: 0 20px; }
+    .my-bottom-panel .my-content .my-steps .my-icon .my-image {
+      height: 90px; }
+    .my-bottom-panel .my-content .my-steps .my-step {
+      width: 33.33333333%; } }
+
+@media (min-width: 1024px) {
+  .my-bottom-panel .my-content .my-steps .my-icon .my-image {
+    height: 90px; }
+  .my-bottom-panel .my-content .my-steps .my-text {
+    padding: 0 10px; } }
+
+.my-footer {
+  padding: 30px 20px; }
+  .my-footer .my-container {
+    margin: 0 auto;
+    max-width: 1200px; }
+    .my-footer .my-container .my-terms-conditions .my-title {
+      padding-bottom: 5px;
+      font-size: 12px; }
+    .my-footer .my-container .my-terms-conditions .my-content {
+      padding-bottom: 10px;
+      font-size: 10px;
+      line-height: 12px; }
+    .my-footer .my-container .my-terms-conditions .my-expires {
+      padding-bottom: 20px;
+      font-size: 12px;
+      font-weight: 600;
+      display: inline-block;
+      float: left; }
+    .my-footer .my-container .my-terms-conditions .my-order-id {
+      display: inline-block;
+      float: right;
+      font-size: 12px;
+      font-weight: 600; }
+    .my-footer .my-container .my-terms-conditions .my-white-label {
+      margin-bottom: 0;
+      border-bottom: none; }
+    .my-footer .my-container .my-mobile-info {
+      background-color: #ffffff;
+      padding: 20px 0; }
+      .my-footer .my-container .my-mobile-info .my-goto-homepage {
+        padding-bottom: 10px; }
+    .my-footer .my-container .my-add-to-wallet {
+      padding-bottom: 10px;
+      text-align: center; }
+    .my-footer .my-container .my-site-info .my-gyft-assets {
+      text-align: center; }
+    .my-footer .my-container .my-site-info .my-copyright {
+      padding-right: 10px;
+      text-align: center;
+      display: inline-block;
+      position: relative;
+      bottom: 15px; }
+    .my-footer .my-container .my-site-info .my-copyright.my-full {
+      display: none; }
+    .my-footer .my-container .my-site-info .my-navigation .my-links {
+      text-align: center;
+      padding-bottom: 10px; }
+      .my-footer .my-container .my-site-info .my-navigation .my-links a {
+        padding-right: 10px; }
+      .my-footer .my-container .my-site-info .my-navigation .my-links a.my-last {
+        padding-right: 0; }
+    .my-footer .my-container .my-site-info .my-powered-by-gyft {
+      width: 57px; }
+
+@media (min-width: 480px) {
+  .my-footer .my-container .my-terms-conditions {
+    margin-bottom: 10px; }
+  .my-footer .my-container .my-site-info .my-navigation .my-links a {
+    padding-right: 20px; } }
+
+@media (min-width: 740px) {
+  .my-footer .my-container .my-site-info.wide {
+    display: none; }
+  .my-footer .my-container .my-terms-conditions {
+    margin-bottom: 30px; }
+  .my-footer .my-container .my-site-info {
+    position: relative; }
+    .my-footer .my-container .my-site-info .my-copyright {
+      padding-right: 0;
+      float: left;
+      bottom: 0; }
+    .my-footer .my-container .my-site-info .my-navigation {
+      float: right;
+      position: relative;
+      bottom: 2px; }
+      .my-footer .my-container .my-site-info .my-navigation .my-links {
+        padding-right: 97px;
+        padding-bottom: 0;
+        display: inline-block; }
+        .my-footer .my-container .my-site-info .my-navigation .my-links a.my-last {
+          padding-right: 20px; }
+    .my-footer .my-container .my-site-info .my-powered-by-gyft {
+      position: absolute;
+      right: 10px;
+      top: -14px; } }
+
+/* -------------------------------- */
+/* -- Redemption Position Styles -- */
+/* -------------------------------- */
+.my-outter-top {
+  display: none;
+  margin: 0 auto; }
+  @media (min-width: 480px) {
+    .my-outter-top {
+      display: block; } }
+  @media (min-width: 1024px) {
+    .my-outter-top {
+      display: none; } }
+  .my-outter-top .my-goto-homepage {
+    float: right;
+    display: inline-block; }
+  .my-outter-top .my-help {
+    float: right;
+    display: inline-block; }
+
+.my-outter-top.my-with-error {
+  display: block; }
+
+.my-main {
+  margin: 0 auto;
+  display: block; }
+  .my-main .my-left-panel {
+    float: left; }
+    .my-main .my-left-panel .my-gift-card-summary {
+      margin: 0 auto 10px auto; }
+      .my-main .my-left-panel .my-gift-card-summary .my-merchant-logo {
+        vertical-align: middle; }
+      .my-main .my-left-panel .my-gift-card-summary .my-gift-card-details {
+        vertical-align: middle;
+        text-align: left; }
+    .my-main .my-left-panel .my-gift-card-image {
+      margin-bottom: 10px;
+      text-align: center; }
+    .my-main .my-left-panel .my-gyft-balance-content {
+      text-align: center; }
+      .my-main .my-left-panel .my-gyft-balance-content .my-description {
+        display: inline-block; }
+    .my-main .my-left-panel .my-gift-card-prereveal {
+      text-align: center; }
+      .my-main .my-left-panel .my-gift-card-prereveal .my-reveal-error {
+        margin: 0 auto; }
+    .my-main .my-left-panel .my-gift-card-reveal {
+      text-align: center; }
+      .my-main .my-left-panel .my-gift-card-reveal .my-field {
+        margin-bottom: 15px;
+        text-align: right; }
+        .my-main .my-left-panel .my-gift-card-reveal .my-field .my-barcode {
+          display: inline-block;
+          position: relative;
+          left: 10px; }
+        .my-main .my-left-panel .my-gift-card-reveal .my-field .my-label {
+          display: inline-block;
+          position: relative;
+          bottom: 1px; }
+        .my-main .my-left-panel .my-gift-card-reveal .my-field .my-label.my-card-number {
+          bottom: 0; }
+        .my-main .my-left-panel .my-gift-card-reveal .my-field .my-value {
+          display: inline-block; }
+        .my-main .my-left-panel .my-gift-card-reveal .my-field .my-copy {
+          display: none; }
+      .my-main .my-left-panel .my-gift-card-reveal .my-field.my-barcode-field {
+        text-align: right;
+        margin-bottom: 0; }
+        .my-main .my-left-panel .my-gift-card-reveal .my-field.my-barcode-field .my-copy {
+          display: none; }
+      .my-main .my-left-panel .my-gift-card-reveal .my-fields-group {
+        display: inline-block; }
+    .my-main .my-left-panel .my-gift-card-add-wallet {
+      text-align: right;
+      position: relative;
+      left: 10px; }
+  @media (min-width: 480px) {
+    .my-main .my-left-panel .my-gift-card-summary {
+      margin: 0 auto 20px auto; }
+    .my-main .my-left-panel .my-gift-card-image {
+      margin-bottom: 20px; }
+    .my-main .my-left-panel .my-gift-card-reveal .my-fields-group {
+      position: relative;
+      left: 20px; }
+    .my-main .my-left-panel .my-gift-card-reveal .my-field .my-barcode {
+      left: 0; }
+    .my-main .my-left-panel .my-gift-card-reveal .my-field .my-copy {
+      display: inline-block;
+      position: relative;
+      bottom: 3px;
+      text-align: left; }
+    .my-main .my-left-panel .my-gift-card-reveal .my-field.my-barcode-field .my-copy {
+      display: inline-block; }
+    .my-main .my-left-panel .my-gift-card-add-wallet {
+      left: 0; } }
+  @media (min-width: 1024px) {
+    .my-main .my-left-panel .my-gift-card-summary {
+      margin: 0 0 30px 0; }
+    .my-main .my-left-panel .my-gift-card-image {
+      margin-bottom: 30px; }
+    .my-main .my-left-panel .my-gift-card-reveal {
+      text-align: right; }
+      .my-main .my-left-panel .my-gift-card-reveal .my-fields-group {
+        left: 0; }
+      .my-main .my-left-panel .my-gift-card-reveal .my-field .my-copy {
+        display: inline-block; }
+      .my-main .my-left-panel .my-gift-card-reveal .my-field.my-barcode-field {
+        text-align: right; }
+        .my-main .my-left-panel .my-gift-card-reveal .my-field.my-barcode-field .my-copy {
+          display: inline-block; } }
+  .my-main .my-right-panel {
+    float: left; }
+    .my-main .my-right-panel .my-container .my-top {
+      display: none; }
+    .my-main .my-right-panel .my-container .my-content .my-gift-message .my-box {
+      position: relative; }
+      .my-main .my-right-panel .my-container .my-content .my-gift-message .my-box .my-ribbon {
+        position: absolute;
+        top: -8px;
+        left: 10px; }
+      .my-main .my-right-panel .my-container .my-content .my-gift-message .my-box .my-toggle {
+        position: absolute;
+        top: 25px;
+        right: 20px; }
+      .my-main .my-right-panel .my-container .my-content .my-gift-message .my-box .my-toggle-image {
+        margin-left: 5px; }
+      .my-main .my-right-panel .my-container .my-content .my-gift-message .my-box .my-message .my-video {
+        display: inline-block;
+        float: left; }
+      .my-main .my-right-panel .my-container .my-content .my-gift-message .my-box .my-message .my-text {
+        display: inline-block;
+        float: left; }
+    .my-main .my-right-panel .my-container .my-content .my-redeem-in-store,
+    .my-main .my-right-panel .my-container .my-content .my-redeem-online {
+      float: left; }
+    .my-main .my-right-panel .my-container .my-content .my-redeem-in-store .my-action {
+      text-align: center; }
+      .my-main .my-right-panel .my-container .my-content .my-redeem-in-store .my-action .my-find-store-link {
+        position: relative;
+        right: 0;
+        left: 0;
+        bottom: -15px;
+        z-index: 1; }
+    .my-main .my-right-panel .my-container .my-content .my-redeem-in-store-and-online .my-action .btn {
+      float: left; }
+    .my-main .my-right-panel .my-container .my-content .my-redeem-in-store-and-online .my-action .btn.my-first {
+      margin-right: 4.5%; }
+    .my-main .my-right-panel .my-container .my-content .my-gyft-smart-widget {
+      float: left;
+      text-align: center; }
+      .my-main .my-right-panel .my-container .my-content .my-gyft-smart-widget .my-or {
+        display: none; }
+      .my-main .my-right-panel .my-container .my-content .my-gyft-smart-widget .my-register-login {
+        margin: 0 -20px; }
+    .my-main .my-right-panel .my-container .my-content .my-add-to-samsung-pay {
+      float: left;
+      text-align: center; }
+    .my-main .my-right-panel .my-container .my-content .my-actions-container {
+      display: none; }
+  @media (min-width: 480px) {
+    .my-main .my-right-panel .my-container .my-content .my-gyft-smart-widget .my-register-login {
+      margin: 0 0; }
+    .my-main .my-right-panel .my-container .my-content .my-redeem-in-store .my-action,
+    .my-main .my-right-panel .my-container .my-content .my-redeem-online .my-action {
+      display: none; }
+    .my-main .my-right-panel .my-container .my-content .my-actions-container {
+      display: block; }
+    .my-main .my-right-panel .my-container .my-content .my-add-to-wallet {
+      text-align: left; }
+    .my-main .my-right-panel .my-container .my-content .my-add-to-samsung-pay {
+      text-align: left; }
+    .my-main .my-right-panel .my-container .my-content .my-actions-container .my-action {
+      float: left;
+      text-align: center; }
+      .my-main .my-right-panel .my-container .my-content .my-actions-container .my-action .my-find-store-link {
+        position: relative;
+        right: 0;
+        left: 0;
+        bottom: -15px;
+        z-index: 1; } }
+  @media (min-width: 1024px) {
+    .my-main .my-right-panel .my-container .my-top {
+      display: block; }
+      .my-main .my-right-panel .my-container .my-top .my-goto-homepage {
+        float: right;
+        display: inline-block; }
+      .my-main .my-right-panel .my-container .my-top .my-help {
+        float: right;
+        display: inline-block; }
+    .my-main .my-right-panel .my-container .my-content .my-gift-message .my-box .my-ribbon {
+      left: 20px; }
+    .my-main .my-right-panel .my-container .my-content .my-gift-message .my-box .my-toggle {
+      top: 30px;
+      right: 30px; }
+    .my-main .my-right-panel .my-container .my-content .my-gyft-smart-widget {
+      position: relative; }
+      .my-main .my-right-panel .my-container .my-content .my-gyft-smart-widget .my-or {
+        display: inline-block;
+        position: absolute;
+        top: 23px;
+        left: 0;
+        right: 0; }
+        .my-main .my-right-panel .my-container .my-content .my-gyft-smart-widget .my-or .my-text {
+          display: inline-block;
+          position: relative; }
+    .my-main .my-right-panel .my-container .my-content .my-gyft-smart-widget.my-gyft-balance-card .my-or {
+      display: none; } }
+
+.my-bottom-panel {
+  clear: both; }
+  .my-bottom-panel .my-content {
+    margin: 0 auto;
+    text-align: center; }
+    .my-bottom-panel .my-content .my-steps {
+      text-align: left;
+      margin: 0 auto; }
+      .my-bottom-panel .my-content .my-steps .my-icon {
+        float: left;
+        width: 30%; }
+      .my-bottom-panel .my-content .my-steps .my-text {
+        float: left;
+        width: 70%; }
+      .my-bottom-panel .my-content .my-steps .my-image {
+        position: relative;
+        top: 4px; }
+      .my-bottom-panel .my-content .my-steps .my-manage .my-image {
+        right: 17px; }
+      .my-bottom-panel .my-content .my-steps .my-step {
+        float: left; }
+
+@media (min-width: 740px) {
+  .my-bottom-panel .my-content .my-steps {
+    text-align: center; }
+    .my-bottom-panel .my-content .my-steps .my-icon {
+      float: none;
+      width: auto; }
+    .my-bottom-panel .my-content .my-steps .my-text {
+      float: none;
+      width: auto; }
+    .my-bottom-panel .my-content .my-steps .my-image {
+      top: 0; }
+    .my-bottom-panel .my-content .my-steps .my-manage .my-image {
+      right: 20px; } }
+
+.my-footer .my-container .my-terms-conditions.my-white-label {
+  margin-bottom: 0; }
+
+.my-footer .my-container .my-mobile-info {
+  text-align: center;
+  margin-left: -20px;
+  margin-right: -20px;
+  margin-bottom: 20px; }
+
+.my-footer .my-container .my-site-info .my-powered-by-gyft {
+  display: inline-block; }
+
+.my-footer .my-container .my-site-info .my-powered-by-gyft.my-hi-res {
+  display: none; }
+
+.my-footer .my-container .my-site-info.my-white-label {
+  display: none; }
+
+@media (min-width: 480px) {
+  .my-footer .my-container .my-site-info .my-copyright.my-full {
+    display: inline-block; }
+  .my-footer .my-container .my-site-info .my-copyright.my-short {
+    display: none; }
+  .my-footer .my-container .my-mobile-info {
+    display: none; } }
+
+/* ----------------------------- */
+/* -- Redemption State Styles -- */
+/* ----------------------------- */
+.my-samsung-pay-button {
+  cursor: pointer; }
+
+@media (min-width: 1024px) {
+  .my-main .my-right-panel .my-container .my-content .my-gyft-smart-widget.my-without-redemption-instructions {
+    padding-top: 0; }
+    .my-main .my-right-panel .my-container .my-content .my-gyft-smart-widget.my-without-redemption-instructions .my-or {
+      display: none; }
+    .my-main .my-right-panel .my-container .my-content .my-gyft-smart-widget.my-without-redemption-instructions .my-register-login {
+      border-top: none;
+      padding-top: 0; } }
+
+@media print {
+  /* Hiding */
+  .my-outter-top {
+    display: none !important; }
+  .my-main {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important; }
+  .my-left-panel {
+    padding-bottom: 0 !important; }
+  .my-bottom-panel {
+    display: none !important; }
+  .my-footer {
+    background-color: transparent !important;
+    box-shadow: none !important; }
+  .my-gift-message {
+    display: none !important; }
+  .my-actions-container {
+    display: none !important; }
+  .my-redeem-online .my-action {
+    display: none !important; }
+  .my-redeem-in-store .my-action {
+    display: none !important; }
+  .btn {
+    display: none !important; }
+  .my-merchant-logo {
+    display: none !important; }
+  .my-gyft-smart-widget {
+    display: none !important; }
+  .my-add-to-samsung-pay {
+    display: none !important; }
+  .my-gift-card-add-wallet {
+    display: none !important; }
+  .my-copy {
+    display: none !important; }
+  .my-navigation .my-links {
+    display: none !important; }
+  .my-gyft-assets .my-copyright {
+    display: none !important; }
+  .my-mobile-info {
+    display: none !important; }
+  .my-powered-by-gyft {
+    width: 85px !important; }
+  .my-terms-conditions {
+    border-bottom: none !important; }
+  /* Sizing */
+  .my-gift-card-summary {
+    width: 45% !important; }
+  .my-gift-card-summary .my-amount {
+    padding-bottom: 5px !important; }
+  .my-gift-card-details {
+    padding-top: 40px !important;
+    padding-left: 20px !important;
+    padding-bottom: 5px !important; }
+  .my-gift-card-image {
+    width: 55% !important;
+    padding-top: 20px !important; }
+  .my-gift-card-image .my-image {
+    max-width: none !important;
+    width: 100% !important; }
+  .my-gift-card-reveal {
+    width: 45% !important; }
+  .my-field {
+    padding-left: 20px !important; }
+  .my-field.my-barcode-field {
+    padding-left: 10px !important; }
+  .my-field .my-value {
+    padding-right: 0 !important; }
+  .my-barcode {
+    padding-bottom: 0 !important; }
+  .my-redeem-in-store.my-two-column {
+    width: 50% !important;
+    padding-bottom: 0 !important; }
+  .my-redeem-online.my-two-column {
+    width: 50% !important;
+    padding-bottom: 0 !important; }
+  .my-redeem-in-store.my-first {
+    padding-right: 15px; }
+  .my-redeem-online.my-last {
+    padding-left: 15px; }
+  .my-redemption-container {
+    padding-top: 20px !important; }
+  .my-right-panel .my-title {
+    padding-bottom: 5px !important; }
+  .my-terms-conditions {
+    padding-top: 20px !important; }
+  /* Position */
+  .my-left-panel {
+    position: relative !important; }
+  .my-gift-card-summary {
+    display: inline-block !important;
+    margin-bottom: 10px !important;
+    float: right !important; }
+  .my-gift-card-image {
+    display: inline-block !important;
+    float: left !important; }
+  .my-gift-card-reveal {
+    display: inline-block;
+    text-align: left !important;
+    float: right !important; }
+  .my-fields-group {
+    left: 0 !important; }
+  .my-field {
+    text-align: left !important;
+    margin-bottom: 5px !important; }
+  .my-field.my-barcode-field {
+    margin-bottom: 0 !important; }
+  .my-powered-by-gyft {
+    display: none !important; }
+  .my-powered-by-gyft.my-hi-res {
+    display: inline-block !important; }
+  /* Theme */
+  .my-redemption-container {
+    border-top: 1px dashed #8E8E93 !important; }
+  .my-terms-conditions {
+    border-top: 1px dashed #8E8E93 !important; }
+  /* Typography */
+  .my-right-panel .my-title {
+    color: #8E8E93 !important;
+    font-size: 15px !important; }
+  .my-right-panel .my-instructions {
+    color: #8E8E93 !important; }
+  .my-gift-card-summary .my-name {
+    color: #8E8E93 !important; } }
+
+/* ----------------------------- */
+/* -- Redemption Theme Styles -- */
+/* ----------------------------- */
+.my-main .my-left-panel .my-gift-card-prereveal .my-action.btn {
+  background-color: #33404f; }
+
+.my-main .my-right-panel .my-container .my-content .my-gift-message .my-box {
+  border: 1px solid #d2d7dd;
+  border-radius: 4px;
+  background-color: #f8f8f8; }
+
+@media (min-width: 1024px) {
+  .my-main .my-right-panel .my-container .my-content .my-gyft-smart-widget .my-or .my-text {
+    background-color: #ffffff; }
+  .my-main .my-right-panel .my-container .my-content .my-gyft-smart-widget .my-register-login {
+    border-top: 1px dashed #d2d7dd; }
+  .my-main .my-right-panel .my-container .my-content .my-gyft-smart-widget.my-gyft-balance-card .my-register-login {
+    border-top: none; } }
+
+@media (max-width: 600px) {
+  .my-main .my-right-panel .my-container .my-content .my-action {
+    text-align: center; } }
+
+.my-bottom-panel {
+  background: url("/card/assets/image/marketing-background-sm.jpg") no-repeat right top #1d1d1d;
+  background-size: cover; }
+
+@media (min-width: 480px) {
+  .my-bottom-panel {
+    background-image: url("/card/assets/image/marketing-background.jpg"); } }
+
+@media (min-width: 1024px) {
+  .my-bottom-panel {
+    background-position: center; } }
+
+.my-footer {
+  background-color: #f8f8f8;
+  box-shadow: 0px 500px 0px 500px #f8f8f8; }
+  .my-footer .my-container .my-mobile-info {
+    background-color: #ffffff; }
+  .my-footer .my-container .my-terms-conditions.my-white-label {
+    border-bottom: none; }
+
+@media (min-width: 480px) {
+  .my-footer .my-container .my-terms-conditions {
+    border-bottom: 1px solid #d2d7dd; } }
+
+/* ---------------------------------- */
+/* -- Redemption Typography Styles -- */
+/* ---------------------------------- */
+.my-error .my-title {
+  line-height: 1.3; }
+
+.my-error .my-message {
+  line-height: 1.3; }
+
+.my-main .my-left-panel .my-gift-card-details .my-amount {
+  font-size: 30px; }
+
+.my-main .my-left-panel .my-gyft-balance-content .my-description {
+  line-height: 1.3; }
+
+.my-main .my-left-panel .my-gift-card-prereveal .my-reveal-error {
+  color: #dd4b4c;
+  line-height: 1.3; }
+
+.my-main .my-left-panel .my-gift-card-reveal .my-field .my-label {
+  color: #8E8E93; }
+
+.my-main .my-left-panel .my-gift-card-reveal .my-field .my-label.my-card-number {
+  color: #8E8E93; }
+
+.my-main .my-left-panel .my-gift-card-reveal .my-field .my-label.my-card-number.my-custom {
+  color: #8E8E93; }
+
+.my-main .my-left-panel .my-gift-card-reveal .my-field .my-value {
+  font-size: 20px;
+  color: #000000; }
+
+.my-main .my-left-panel .my-gift-card-reveal .my-field .my-copy {
+  font-size: 12px;
+  color: #3398db; }
+
+.my-main .my-right-panel .my-container .my-content .my-gift-message .my-label {
+  color: #8E8E93; }
+
+.my-main .my-right-panel .my-container .my-content .my-gift-message .my-message .my-text {
+  white-space: pre-wrap;
+  line-height: 1.3; }
+
+.my-main .my-right-panel .my-container .my-content .my-gift-message .my-toggle {
+  color: #3398db; }
+
+.my-main .my-right-panel .my-container .my-content .my-instructions {
+  white-space: pre-wrap;
+  line-height: 1.3; }
+
+.my-main .my-right-panel .my-container .my-content .my-gyft-smart-widget {
+  color: #8E8E93; }
+
+.my-bottom-panel .my-content .my-title {
+  font-size: 23px;
+  color: #ffffff;
+  font-weight: 600;
+  line-height: 1.2; }
+
+.my-bottom-panel .my-content .my-subtitle {
+  font-size: 19px;
+  color: #ffffff;
+  line-height: 1.2; }
+
+.my-bottom-panel .my-content .my-text {
+  font-size: 17px;
+  color: #ffffff;
+  line-height: 1.3; }
+
+@media (min-width: 480px) {
+  .my-bottom-panel .my-content .my-title {
+    font-size: 23px;
+    color: #ffffff;
+    font-weight: 600;
+    line-height: 1.0; }
+  .my-bottom-panel .my-content .my-subtitle {
+    font-size: 19px;
+    color: #ffffff;
+    line-height: 1.0; }
+  .my-bottom-panel .my-content .my-text {
+    font-size: 17px;
+    color: #ffffff;
+    line-height: 1.4; } }
+
+.my-footer .my-container .my-terms-conditions .my-title {
+  font-size: 12px;
+  color: #8E8E93;
+  font-weight: 600; }
+
+.my-footer .my-container .my-terms-conditions .my-content {
+  font-size: 11px;
+  color: #8E8E93;
+  line-height: 1.4;
+  white-space: pre-wrap; }
+
+.my-footer .my-container .my-terms-conditions .my-expires {
+  font-size: 12px;
+  color: #8E8E93;
+  font-weight: 600; }
+
+.my-footer .my-container .my-terms-conditions .my-order-id {
+  font-size: 12px;
+  color: #8E8E93; }
+
+.my-footer .my-container .my-mobile-info a {
+  font-size: 15px;
+  color: #3398db; }
+
+.my-footer .my-container .my-site-info .my-copyright {
+  font-size: 12px;
+  color: #8E8E93; }
+
+.my-footer .my-container .my-site-info .my-navigation a {
+  font-size: 12px;
+  color: #8E8E93;
+  font-weight: 600; }
